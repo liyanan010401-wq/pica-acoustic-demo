@@ -1,0 +1,52 @@
+{
+  "warning": "SYNTHETIC DEMONSTRATION ONLY. Not experimental results or a reproduction of the manuscript tables.",
+  "seed": 20261031,
+  "model": "analytical single-mode solution family; no neural network trained",
+  "n_source_calibration": 800,
+  "n_target_test": 400,
+  "sensor_count": 6,
+  "complex_noise_rms": 0.01,
+  "calibration": "oracle-ratio reference; known generator distributions",
+  "mean_nominal_rel_l2": 0.8183661486110455,
+  "mean_fitted_rel_l2": 0.005116640741041976,
+  "weighted_field_coverage": 0.865,
+  "covered_fields": 346,
+  "unweighted_field_coverage": 0.8975,
+  "weighted_radius": 0.009118150048791051,
+  "unweighted_radius": 0.00982556355663373,
+  "source_weight_ESS": 143.99999999999994,
+  "min_sensor_jacobian_singular_value": 0.8005513172870541,
+  "scale_equivalence_max_abs": 1.1986424564952127e-15,
+  "groups": [
+    {
+      "group": 0,
+      "n": 200,
+      "covered": 173,
+      "coverage": 0.865
+    },
+    {
+      "group": 1,
+      "n": 200,
+      "covered": 173,
+      "coverage": 0.865
+    }
+  ],
+  "checks": {
+    "magnitude_ssim_identical": true,
+    "magnitude_ssim_global_phase_invariance": true,
+    "weighted_test_mass_infinity": true,
+    "zero_total_weight_infinity": true,
+    "finite_sample_unweighted_order_statistic": true,
+    "coverage_group_identity": true,
+    "worst_group_le_marginal": true,
+    "scale_equivalence": true,
+    "null_sensor_layout_has_identical_data": true,
+    "adaptation_reduces_mean_error": true,
+    "point_predictions_unchanged_by_calibration": true,
+    "positive_sensor_jacobian": true,
+    "negative_weight_rejected": true,
+    "null_layout_rejected": true
+  },
+  "all_checks_pass": true,
+  "synthetic_slice_magnitude_ssim": 0.9999885593020933
+}
